@@ -24,12 +24,14 @@ function LeftSide() {
                 <NavLink to="/contact" className="navlinks" onMouseEnter={changeColor} onMouseLeave={changeColorLeave}><strong>Contact</strong></NavLink>
             </div>
             <div id="greeting-left">
-                <h1 className="greeting-left"><Typewriter
+                <h1 className="greeting-left">
+                    <Typewriter
                     options={{
                         strings: ("Hey there,<br /> I'm Jeff!"),
                         autoStart: true,
                     }} 
-                /></h1>
+                    />
+                </h1>
             </div>
             <div className="contact-greeting-left">
                     <p id="contact-greeting-left"><strong>Let's create together.</strong></p>

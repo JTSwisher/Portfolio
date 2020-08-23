@@ -82,26 +82,33 @@ html, body {
   color: white;
 }
 
+/* home container styles */
 /* right side */
 .home-right-side {
   width: 50vw;
   height: 100vh;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+
 
 .greeting-right {
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: flex-start;
-  padding-left: 22%;
-  margin-top: 55%;
+  padding-left: 17.5%;
+  margin-top: 10%;
   overflow: hidden;
+  text-align: center;
 }
+
 
 #title-greeting-right {
   font-family: 'Bevan', cursive;
-  width: 400px;
+  width: 425px;
   overflow: hidden;
   font-size: 1.4em;
   color: black;
@@ -110,7 +117,7 @@ html, body {
 
 #subtitle-greeting-right {
   font-family: 'Abel';
-  width: 70%;
+  width: 425px;
   overflow: hidden;
   font-size: 1.35em;
   margin: 0;
