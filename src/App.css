@@ -32,29 +32,30 @@ html, body {
   flex-direction: column;
   width: 100%;
   align-items: flex-start;
-  margin-top: 30%;
+  margin-top: 10%;
   padding-left: 13%;
   
 }
 
 .contact-greeting-left {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Abel';
   display: flex;
   flex-direction: column;
   margin-left: 13%;
-   bottom: 10px;
+
 }
 
 #contact-greeting-left {
-  font-size: 3em;
-  margin-bottom: 5px;
+  font-size: 2.25em;
+  margin-bottom: 10px;
 }
 
 
 
 #home-icons {
-  font-size: 3em;
+  font-size: 2.75em;
   margin-right: 45px;
+  color: white;
 }
 
 .home-right-side {
