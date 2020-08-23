@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-repeat:no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flex-container {
+  display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* home container styles */
+.home-left-side {
+  width: 50vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-evenly;
+  background-color: #d94133;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.greeting-left {
+  font-family: 'Bevan', cursive;
+  margin: 0;
+  font-size: 5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#greeting-left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  margin-top: 30%;
+  padding-left: 13%;
+  
+}
+
+.contact-greeting-left {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13%;
+   bottom: 10px;
+}
+
+#contact-greeting-left {
+  font-size: 3em;
+  margin-bottom: 5px;
+}
+
+
+
+#home-icons {
+  font-size: 3em;
+  margin-right: 45px;
+}
+
+.home-right-side {
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  background-color: white;
 }
