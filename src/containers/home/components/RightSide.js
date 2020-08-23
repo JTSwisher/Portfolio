@@ -3,7 +3,9 @@ import React from 'react'
 function RightSide() {
     return (
         <div className="home-right-side">
-            <h1>Hey</h1>
+            <div className="greeting-right">
+                <p id="title-greeting-right">I'm a Full-Stack Software Engineer in Scottsdale, AZ</p>
+            </div>
         </div>
     )
 }

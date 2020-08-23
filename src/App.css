@@ -1,9 +1,9 @@
 html, body {
-  font-family: 'Montserrat', sans-serif;
-  height: 100%;
-  width: 100%;
   margin: 0;
-  background-repeat:no-repeat;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .flex-container {
@@ -11,20 +11,21 @@ html, body {
 }
 
 /* home container styles */
+/* left side */
 .home-left-side {
   width: 50vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: #d94133;
+  background-color: #77A6F7;
   color: white;
 }
 
 .greeting-left {
   font-family: 'Bevan', cursive;
-  margin: 0;
-  font-size: 5em;
+  font-size: 45px;
+  font-weight: bold;
 }
 
 #greeting-left {
@@ -33,35 +34,61 @@ html, body {
   width: 100%;
   align-items: flex-start;
   margin-top: 10%;
-  padding-left: 13%;
+  padding-left: 17%;
+  overflow: hidden;
   
 }
 
 .contact-greeting-left {
-  font-family: 'Abel';
   display: flex;
   flex-direction: column;
-  margin-left: 13%;
+  margin-left: 17%;
 
 }
 
 #contact-greeting-left {
-  font-size: 2.25em;
+  font-family: 'Abel';
+  font-size: 25px;
   margin-bottom: 10px;
+  color:  white;
 }
 
-
+.contact {
+  padding: 5px;
+  display: flex;
+  width: 50%;
+}
 
 #home-icons {
-  font-size: 2.75em;
+  font-size: 1.75em;
   margin-right: 45px;
-  color: white;
+  justify-content: flex-start;
+  color: #FFCCBC;
 }
 
+/* right side */
 .home-right-side {
-  position: fixed;
-  width: 50%;
-  height: 100%;
-  right: 0;
-  background-color: white;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #FFCCBC;
+}
+
+.greeting-right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  margin-top: 1%;
+  padding-left: 13%;
+}
+
+#title-greeting-right {
+  font-family: 'Bevan', cursive;
+  width: 70%;
+  overflow: hidden;
+  font-size: 1.5em;
+  color: #77A6F7;
 }
