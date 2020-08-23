@@ -1,15 +1,32 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { FaGithub, FaLinkedin, FaRegEnvelope, } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom'
 
 
 function LeftSide() {
+
+    function changeColor(e) {
+        e.target.style.color = 'black'
+        e.target.style.textDecoration = 'underline'
+    }
+
+    function changeColorLeave(e) {
+        e.target.style.color = 'white'
+        e.target.style.textDecoration = ''
+    }
+
     return (
         <div className="home-left-side">
+            <div className="nav">
+                <NavLink to="/about" className="navlinks" onMouseEnter={changeColor} onMouseLeave={changeColorLeave}><strong>About</strong></NavLink>
+                <NavLink to="/projects" className="navlinks" onMouseEnter={changeColor} onMouseLeave={changeColorLeave}><strong>Projects</strong></NavLink>
+                <NavLink to="/contact" className="navlinks" onMouseEnter={changeColor} onMouseLeave={changeColorLeave}><strong>Contact</strong></NavLink>
+            </div>
             <div id="greeting-left">
                 <h1 className="greeting-left"><Typewriter
                     options={{
-                        strings: ("Hey,<br /> I'm Jeff!"),
+                        strings: ("Hey there,<br /> I'm Jeff!"),
                         autoStart: true,
                     }} 
                 /></h1>
