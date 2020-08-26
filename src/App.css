@@ -88,23 +88,19 @@ html, body {
   width: 50vw;
   height: 100vh;
   background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  position: absolute;
+  right: 0;
 }
 
 
 .greeting-right {
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
   width: 100%;
-  align-items: flex-start;
-  padding-left: 17.5%;
-  margin-top: 10%;
+  margin-top: 50%;
+  margin-left: 25%;
   overflow: hidden;
   text-align: center;
 }
-
 
 #title-greeting-right {
   font-family: 'Bevan', cursive;
@@ -131,3 +127,194 @@ html, body {
 }
 
 /* about container styles */
+
+.about {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.skills {
+  display: flex;
+  margin-top: 50%;
+  margin-left: 45%;
+  width: 50%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.about-header {
+  font-family: 'Bevan', cursive;
+  font-size: 1.15em;
+  color: black;
+  display: flex;
+  margin-top: 15%;
+  margin-left: 45%;
+  position: absolute;
+}
+
+.about-image {
+  display: flex;
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 8%;
+  height: 400px;
+  width: 400px;
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+}
+
+.about-body {
+  width: 50%;
+  font-family: 'Abel';
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  font-size: 1.5em;
+  margin-top: 20%;
+  margin-left: 45%;
+}
+
+#about-icons {
+  font-size: 5em;
+  color: #77A6F7;
+  margin-right: 16px;
+}
+
+@media screen and (max-width: 400px) { 
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+/* left side */
+  .home-left-side {
+    width: 100vw;
+    height: fit-content;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #77A6F7;
+    color: white;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 13%;
+    padding: 0;
+  }
+  
+  .navlinks {
+    color: white;
+    text-decoration: none;
+    font-family: 'Abel';
+    margin-right: 50px;
+    font-size: 1.25em;
+  }
+  
+  .greeting-left {
+    font-family: 'Bevan', cursive;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  #greeting-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 40%;
+    margin-left: 10%;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .contact-greeting-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 15%;
+  }
+  
+  #contact-greeting-left {
+    font-family: 'Abel';
+    font-size: 25px;
+    margin-bottom: 10px;
+    color:  white;
+  }
+  
+  .contact {
+    padding: 5px;
+    display: flex;
+    width: 50%;
+  }
+  
+  #home-icons {
+    font-size: 1.95em;
+    margin-right: 45px;
+    justify-content: flex-start;
+    color: white;
+  }
+
+/* right side */
+.home-right-side {
+  width: 100vw;
+  height: fit-content;
+  min-height: 20vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.greeting-right {
+  display: flex;
+  flex-direction: column;
+  width: 80vh;
+  align-items: flex-start;
+  margin-top: 10%;
+  overflow: hidden;
+  text-align: center;
+  padding: 0;
+}
+
+#title-greeting-right {
+  font-family: 'Bevan', cursive;
+  width: 50%;
+  overflow: hidden;
+  font-size: 18px;
+  margin-left: 4%;
+}
+
+#subtitle-greeting-right {
+  font-family: 'Abel';
+  width: 50%;
+  overflow: hidden;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 4%;
+}
+
+#greeting-right-line {
+  font-family: 'Abel';
+  font-size: 1.15em;
+  text-decoration: #77A6F7 underline 1em;
+}
+}

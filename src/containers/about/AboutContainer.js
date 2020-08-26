@@ -7,7 +7,6 @@ function AboutContainer() {
     return (
         <div className="flex-container">
             <AboutContent />
-            <SkillsContent />
         </div>
     )
 }
