@@ -4,7 +4,9 @@ class NavContainer extends Component {
 
     render() {
         return(
-            <div></div>
+            <div className="nav-bar">
+                
+            </div>
         )
     }
 }

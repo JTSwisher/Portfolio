@@ -128,6 +128,17 @@ html, body {
 
 /* about container styles */
 
+.nav-bar {
+  width: 10%;
+  height: 100vh;
+  background-color: grey;
+  right: 0;
+  position: fixed;
+  z-index: 1000;
+}
+
+/* about container styles */
+
 .about {
   width: 100vw;
   height: 100vh;

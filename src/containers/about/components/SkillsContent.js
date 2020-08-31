@@ -9,8 +9,6 @@ function SkillsContent() {
                 <i id="about-icons" class="devicon-rails-plain-wordmark"></i>
                 <i id="about-icons" class="devicon-html5-plain-wordmark"></i>
                 <i id="about-icons" class="devicon-css3-plain-wordmark"></i>
-                <i id="about-icons" class="devicon-postgresql-plain-wordmark"></i>
-                <i id="about-icons" class="devicon-github-plain-wordmark"></i>
         </div>
     )
 }
