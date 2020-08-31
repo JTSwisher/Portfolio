@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 
 function LeftSide() {
 
-    function changeColor(e) {
+    function changeColorOnHover(e) {
         e.target.style.color = 'black'
         e.target.style.textDecoration = 'underline'
     }
@@ -19,9 +19,9 @@ function LeftSide() {
     return (
         <div className="home-left-side">
             <div className="nav">
-                <NavLink to="/about" className="navlinks" onMouseEnter={changeColor} onMouseLeave={changeColorLeave}><strong>About</strong></NavLink>
-                <NavLink to="/projects" className="navlinks" onMouseEnter={changeColor} onMouseLeave={changeColorLeave}><strong>Projects</strong></NavLink>
-                <NavLink to="/contact" className="navlinks" onMouseEnter={changeColor} onMouseLeave={changeColorLeave}><strong>Contact</strong></NavLink>
+                <NavLink to="/about" className="navlinks" onMouseEnter={changeColorOnHover} onMouseLeave={changeColorLeave}><strong>About</strong></NavLink>
+                <NavLink to="/projects" className="navlinks" onMouseEnter={changeColorOnHover} onMouseLeave={changeColorLeave}><strong>Projects</strong></NavLink>
+                <NavLink to="/contact" className="navlinks" onMouseEnter={changeColorOnHover} onMouseLeave={changeColorLeave}><strong>Contact</strong></NavLink>
             </div>
             <div id="greeting-left">
                 <h1 className="greeting-left">
