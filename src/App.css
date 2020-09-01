@@ -130,13 +130,14 @@ html, body {
 
 .nav-menu-toggle {
   z-index: 1000;
-  right: 20px;
+  right: 25px;
   margin-top: 25px;
   position: fixed;
+  cursor: pointer;
 }
 
 #nav-menu-icon {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .nav-bar {

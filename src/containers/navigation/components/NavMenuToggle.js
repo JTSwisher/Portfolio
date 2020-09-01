@@ -16,7 +16,7 @@ export default function NavMenuToggle(props) {
 
     return (
         <div className="nav-menu-toggle">
-            <FaBars id="nav-menu-icon" style={ iconColor() } onClick={ props.clickEvent } onMouseEnter={ handleIconHover } onMouseLeave={ handleIconHover }/>
+            <FaBars id="nav-menu-icon" style={iconColor()} onClick={props.clickEvent} onMouseEnter={handleIconHover} onMouseLeave={handleIconHover}/>
         </div>
     )
 }

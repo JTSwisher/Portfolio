@@ -6,7 +6,7 @@ import NavMenuToggle from './components/NavMenuToggle';
 class NavContainer extends Component {
 
     state = {
-        display: true
+        display: false
     }
 
     handleMenuDisplay = (e) => {
@@ -19,7 +19,7 @@ class NavContainer extends Component {
         return(
             <div>
                 <NavMenuToggle clickEvent={this.handleMenuDisplay} />
-                <NavBar displayState={this.state.display} />
+                <NavBar displayState={this.state.display} hoverLeave={this.handleMenuDisplay} />
             </div>
         )
     }

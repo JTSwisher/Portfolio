@@ -6,7 +6,9 @@ export default function NavBar(props) {
        return  props.displayState ? {display: ''} : {display: 'none'}
     }
 
+    
+
     return (
-        <div className="nav-bar" style={ handleDisplayState() }></div>
+        <div className="nav-bar" style={handleDisplayState()} onMouseLeave={props.hoverLeave}></div>
     )
 }
