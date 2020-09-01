@@ -1,7 +1,12 @@
 import React from 'react';
 
-export default function NavBar() {
+export default function NavBar(props) {
+
+    function handleDisplayState() {
+       return  props.displayState ? {display: ''} : {display: 'none'}
+    }
+
     return (
-        <div className="nav-bar"></div>
+        <div className="nav-bar" style={ handleDisplayState() }></div>
     )
 }
