@@ -126,7 +126,7 @@ html, body {
   text-decoration: #77A6F7 underline 1em;
 }
 
-/* nav container styles */
+/* navBar container styles */
 
 .nav-menu-toggle {
   z-index: 1000;
@@ -142,13 +142,41 @@ html, body {
 
 .nav-bar {
   width: 10%;
-  height: 100vh;
-  background-color: lightgray;
+  height: 100%;
+  background-color: gray;
   right: 0;
-  position: absolute;
-  z-index: 500;
+  position: fixed;
+  z-index: 500; 
 }
 
+.nav-bar-links {
+  margin-top: 75px;
+  margin-left: 5%;
+}
+
+#nav-bar-links {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Abel';
+  font-size: 2.25em;
+  color: white;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.nav-bar-icons {
+  margin-top: 95%;
+}
+
+#nav-bar-icons {
+  position: relative;
+  display: inline-block;
+  font-size: 1.75em;
+  color: white;
+  margin-right: 9px;
+  margin-left: 20px;
+}
 /* about container styles */
 
 .about {
