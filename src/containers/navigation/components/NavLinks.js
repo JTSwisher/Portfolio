@@ -14,12 +14,14 @@ export default function NavLimks() {
         e.target.style.textDecoration = '';
     }
 
+    let routes = ["Home", "About", "Projects", "Contact"]
+
+    let links = routes.map(r => <NavLink to={'/' + r} id="nav-bar-links" onMouseEnter={changeColorOnHover} onMouseLeave={changeColorLeave}><strong>{r}</strong></NavLink> )
+
     return (
+        
         <div className="nav-bar-links">
-            <NavLink to="/" id="nav-bar-links" onMouseEnter={changeColorOnHover} onMouseLeave={changeColorLeave}><strong>Home</strong></NavLink><br />
-            <NavLink to="/about" id="nav-bar-links" onMouseEnter={changeColorOnHover} onMouseLeave={changeColorLeave}><strong>About</strong></NavLink><br />
-            <NavLink to="/projects" id="nav-bar-links" onMouseEnter={changeColorOnHover} onMouseLeave={changeColorLeave}><strong>Projects</strong></NavLink><br />
-            <NavLink to="/contact" id="nav-bar-links" onMouseEnter={changeColorOnHover} onMouseLeave={changeColorLeave}><strong>Contact</strong></NavLink><br />
+            { links }
         </div>
     )
 }
