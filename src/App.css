@@ -167,11 +167,12 @@ html, body {
 
 .nav-bar-icons {
   margin-top: 95%;
+  margin-bottom: 0;
 }
 
 #nav-bar-icons {
   position: relative;
-  display: inline-block;
+
   font-size: 1.75em;
   color: white;
   margin-right: 9px;

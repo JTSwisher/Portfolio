@@ -38,7 +38,7 @@ function LeftSide() {
                     <address className="contact">
                         <a href="https://github.com/JTSwisher" target="_blank" rel="noopener noreferrer"><FaGithub id="home-icons" /></a>
                         <a href="https://www.linkedin.com/in/jeffswisher/" target="_blank" rel="noopener noreferrer"><FaLinkedin id ="home-icons" /></a>
-                        <a href="mailto:jefftswisher@gmail.com"><FaRegEnvelope id="home-icons" /></a>
+                        <a href="mailto:jeff@jtswisher.com"><FaRegEnvelope id="home-icons" /></a>
                     </address>
             </div>
         </div>
