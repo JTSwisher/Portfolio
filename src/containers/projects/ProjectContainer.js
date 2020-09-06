@@ -8,7 +8,7 @@ import DisplayProject from './components/DisplayProject'
 export default class ProjectContainer extends Component{
 
     state = {
-        project: 'dailydash',
+        project: 'DailyDash',
     }
 
     handleProjectSelect = (e) => {
