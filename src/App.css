@@ -237,3 +237,13 @@ html, body {
   margin-right: 15px;
 }
 
+/* project container styles */
+
+.project-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
