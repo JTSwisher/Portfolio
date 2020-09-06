@@ -9,6 +9,7 @@ import ProjectContainer from './containers/projects/ProjectContainer'
 function App() {
   return (
     <Router>
+      <Route exact path="/" component={HomeContainer}/>
       <Route exact path="/home" component={HomeContainer}/>
       <Route exact path ="/about" component={AboutContainer} />
       <Route exact path="/projects" component={ProjectContainer} />

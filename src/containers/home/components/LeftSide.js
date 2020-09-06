@@ -16,9 +16,9 @@ function LeftSide() {
         e.target.style.textDecoration = ''
     }
 
-    let routes = ["About", "Projects", "Contact"]
+    const routes = ["About", "Projects", "Contact"]
 
-    let links = routes.map(r => <NavLink to={'/' + r} id="nav-bar-links" onMouseEnter={changeColorOnHover} onMouseLeave={changeColorLeave}><strong>{r}</strong></NavLink> )
+    const links = routes.map(r => <NavLink to={'/' + r} id="nav-bar-links" onMouseEnter={changeColorOnHover} onMouseLeave={changeColorLeave}><strong>{r}</strong></NavLink>)
 
     return (
         <div className="home-left-side">
