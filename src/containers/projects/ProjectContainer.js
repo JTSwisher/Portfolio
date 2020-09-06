@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 
 import NavContainer from '../navigation/NavContainer';
-import ProjectNav from './components/ProjectNav'
+import ProjectNav from './components/ProjectNav';
+import DisplayProject from './components/DisplayProject'
 
 
 export default class ProjectContainer extends Component{
 
     state = {
-        project: 'DailyDash',
+        project: 'dailydash',
     }
 
     handleProjectSelect = (e) => {
         this.setState({
-            project: ''
+            project: e.target.id
         })
     }
 
@@ -21,6 +22,7 @@ export default class ProjectContainer extends Component{
             <div className="project-container">
                 <NavContainer />
                 <ProjectNav projectSelect={this.handleProjectSelect}/>
+                <DisplayProject project={this.state.project}/>
             </div>
         )
     }

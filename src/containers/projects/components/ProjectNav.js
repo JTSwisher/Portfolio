@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default function ProjectNav() {
+export default function ProjectNav(props) {
 
+    const projects = ["DailyDash", "GifBook", "CocktailKeeper"]
+    const links = projects.map(p => <h3 id={p} onClick={ (e) => props.projectSelect(e)} >{p}</h3>)
     return (
         <nav className="project-nav">
-            <div>DailyDash</div>
-            <div>GifBook</div>
-            <div>CocktailKeeper</div>
+            { links }
         </nav>
     )
 }
