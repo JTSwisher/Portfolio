@@ -21,8 +21,8 @@ export default class ProjectContainer extends Component{
         return (
             <div className="project-container">
                 <NavContainer />
-                <ProjectNav projectSelect={this.handleProjectSelect}/>
-                <DisplayProject project={this.state.project}/>
+                <ProjectNav projectSelect={this.handleProjectSelect} />
+                <DisplayProject project={this.state.project} />
             </div>
         )
     }
