@@ -1,11 +1,10 @@
 import React from 'react';
 
-export default function Project() {
-// take project information apssed in as prop from Display project component parent to render project
+export default function Project(props) {
 
     return(
         <div>
-
+            <h1>{props.project.title}</h1>
         </div>
     )
 }

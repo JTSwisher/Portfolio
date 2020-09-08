@@ -1,16 +1,15 @@
 import React from 'react';
 
 import Project from './Project';
+import { Projects } from '../Projects'
 
-export default function DisplayProject() {
+export default function DisplayProject(props) {
 
-    // store project info in external fil in object
-    //based on state passed from parent pull project data from object
-    //pass project down to Project component
+    let project = Projects[props.project]
 
     return (
         <div>
-            <Project />
+            <Project project={project}/>
         </div>
     )
 }

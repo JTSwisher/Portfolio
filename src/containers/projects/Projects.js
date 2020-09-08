@@ -16,7 +16,7 @@ export const Projects ={
         }
     },
     CocktailKeeper: {
-        Title: "CocktailKeeper",
+        title: "CocktailKeeper",
         about: "Ruby on Rails app to create & add cocktail recipes to the community, rate recipes & save favorite community recipes to user accounts ",
         links: {
             github: "https://github.com/JTSwisher/cocktail_book_app",
