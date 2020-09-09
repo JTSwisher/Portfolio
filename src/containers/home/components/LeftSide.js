@@ -17,6 +17,7 @@ function LeftSide() {
     }
 
     const routes = ["About", "Projects", "Contact"]
+
     const links = routes.map(r => <NavLink to={'/' + r} id="nav-bar-links" onMouseEnter={changeColorOnHover} onMouseLeave={changeColorLeave}><strong>{r}</strong></NavLink>)
 
     return (

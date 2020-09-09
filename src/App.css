@@ -264,7 +264,7 @@ html, body {
 .project-nav-link-group {
   display: flex;
   margin-top: 40px;
-  margin-left: 300px;
+  margin-left: 225px;
 }
 
 .project-nav-links {
@@ -284,19 +284,72 @@ html, body {
   font-family: 'Abel';
   font-size: 1.25em;
   width: 500px;
-  margin-left: 150px;
+  margin-left: 125px;
 }
 
 .project-gif-demo {
-  height: 350px;
-  width: 550px;
+  height: 450px;
+  width: 650px;
   display: flex;
   flex-direction: row;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .project-display {
   display: flex;
   align-items: flex-start;
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Button */
+.repo {
+  border: 2px solid #77A6F7;
+  box-sizing: border-box;
+  width: 125px;
+  height: 38px;
+  color: #77A6F7;
+  border-radius: 26.5025px;
+  margin-right: 30px;
+  font-family: 'Bevan', cursive;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 2.75px;
+  transition: 0.5s;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.repo:hover {
+  color: white;
+  background-color: #77A6F7;
+}
+
+.demo {
+  border: 2px solid #77A6F7;
+  background-color: #77A6F7;
+  box-sizing: border-box;
+  width: 125px;
+  height: 38px;
+  color: white;
+  border-radius: 26.5025px;
+  margin-right: 30px;
+  font-family: 'Bevan', cursive;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 2.75px;
+  transition: 0.5s;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.demo:hover {
+  color: #77A6F7;
+  background-color: white;
 }
