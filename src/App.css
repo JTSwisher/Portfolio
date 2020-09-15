@@ -192,7 +192,7 @@ html, body {
 .skills {
   display: flex;
   margin-top: 60%;
-  margin-left: 50%;
+  margin-left: 53%;
   width: 50%;
   bottom: 5%;
   position: absolute;
@@ -204,7 +204,7 @@ html, body {
   font-size: 1.15em;
   color: black;
   display: flex;
-  margin-top: 15%;
+  margin-top: 13%;
   margin-left: 45%;
   position: absolute;
 }
@@ -225,13 +225,13 @@ html, body {
   display: flex;
   overflow: hidden;
   position: absolute;
-  font-size: 1.75em;
-  margin-top: 20%;
+  font-size: 1.5em;
+  margin-top: 18%;
   margin-left: 45%;
 }
 
 #about-icons {
-  font-size: 5em;
+  font-size: 4.5em;
   color: #77A6F7;
   margin-left: 15px;
   margin-right: 15px;
@@ -264,7 +264,7 @@ html, body {
 .project-nav-link-group {
   display: flex;
   margin-top: 40px;
-  margin-left: 225px;
+  margin-left: 375px;
 }
 
 .project-nav-links {
@@ -288,8 +288,8 @@ html, body {
 }
 
 .project-gif-demo {
-  height: 450px;
-  width: 650px;
+  height: 500px;
+  width: 750px;
   display: flex;
   flex-direction: row;
   margin-left: 100px;

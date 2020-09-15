@@ -12,7 +12,7 @@ export default function Project(props) {
                 <p>{props.project.about}</p>
                 <div className="button-group">
                     <Button class="repo" url={props.project.links.github} name="Repo"/>
-                    <Button class="demo" url={props.project.links.videoDemo} name="Demo"/>
+                    {/*& <Button class="demo" url={props.project.links.videoDemo} name="Demo"/>  */} 
                 </div>
             </div>
         </div>

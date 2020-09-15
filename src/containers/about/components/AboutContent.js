@@ -1,7 +1,7 @@
 import React from 'react';
 import image  from '../../../assets/image.JPG'
 
-function AboutContent() {
+export default function AboutContent() {
     return (
         <div className="about">
             <div className="about-image">
@@ -18,12 +18,9 @@ function AboutContent() {
                     creating intricate cities in the video game SimCity. The sense of accomplishment and pride that comes with building something from the ground up is one of my favorite feelings.<br /><br /> 
 
                     I fell in love with programming for the opportunities and fulfillment it provides. Being able to create, solve unique problems, and contribute to a project that has the possibility of being used by people all over the world is very exciting to me.
-                    Currently my primary focus is in fullstack web application development using Javascript and Ruby technologies and I am hoping to become a part of an organization where my development skills can bring value to an existing team.
-
+                    Currently my primary focus is in fullstack web application development using Javascript and Ruby technologies and I am looking to join an organization where my skills can bring value to an existing team.
                 </p>
             </div>
         </div>
     )
 }
-
-export default AboutContent;

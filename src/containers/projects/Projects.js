@@ -1,4 +1,4 @@
-import test from '../../assets/test.gif';
+
 
 export const Projects ={
     DailyDash: {
@@ -7,8 +7,7 @@ export const Projects ={
         links: {
             github: "https://github.com/JTSwisher/capstone_react_frontend",
             videoDemo: "https://www.youtube.com/watch?v=eKzUNgVOXgU&feature=youtu.be"
-        },
-        video: test
+        }
     },
     GifBook: {
         title: "GifBook",
