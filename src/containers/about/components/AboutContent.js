@@ -9,7 +9,8 @@ export default function AboutContent() {
             </div>
             <div className="about-header">
                 <h1>This is Me</h1> 
-            </div>
+            </div>npm start
+            
             <div className="about-body"> 
                 <p>
                     I have a deep interest in technology and have always been fascinated by the role it plays in our everyday lives.<br /><br />

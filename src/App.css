@@ -25,18 +25,19 @@ html, body {
 .nav {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  width: 100%;
-  padding-left: 17%;
+  margin-left: 17%;
 }
 
-.navlinks {
+#nav-links {
   color: white;
   text-decoration: none;
   font-family: 'Abel';
   margin-right: 50px;
   font-size: 1.5em;
-  
+}
+#nav-links:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 .greeting-left {
@@ -159,7 +160,7 @@ html, body {
   display: inline-block;
   text-decoration: none;
   font-family: 'Abel';
-  font-size: 2.25em;
+  font-size: 1.75em;
   color: white;
   margin-left: 25px;
   margin-top: 20px;
