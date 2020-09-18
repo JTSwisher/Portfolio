@@ -42,17 +42,16 @@ html, body {
 
 .greeting-left {
   font-family: 'Bevan', cursive;
-  font-size: 45px;
+  font-size: 65px;
   font-weight: bold;
 }
 
 #greeting-left {
   display: flex;
   flex-direction: column;
-  width: 100%;
   align-items: flex-start;
   margin-top: 10%;
-  padding-left: 17%;
+  margin-left: 27%;
   overflow: hidden;
 }
 
@@ -97,8 +96,8 @@ html, body {
 .greeting-right {
   display: inline-block;
   width: 100%;
-  margin-top: 50%;
-  margin-left: 25%;
+  margin-top: 49%;
+  margin-left: 25.5%;
   overflow: hidden;
   text-align: center;
 }
@@ -107,25 +106,28 @@ html, body {
   font-family: 'Bevan', cursive;
   width: 425px;
   overflow: hidden;
-  font-size: 1.4em;
+  font-size: 1.6em;
   color: black;
   margin: 0;
+}
+
+.greeting-line {
+  font-size: 1.15em;
+  text-decoration: #77A6F7 2px;
+  text-decoration-line: underline;
+  text-decoration-color: #77A6F7;
 }
 
 #subtitle-greeting-right {
   font-family: 'Abel';
   width: 425px;
   overflow: hidden;
-  font-size: 1.35em;
+  font-size: 1.5em;
   margin: 0;
   margin-top: 30px;
 }
 
-#greeting-right-line {
-  font-family: 'Abel';
-  font-size: 1.15em;
-  text-decoration: #77A6F7 underline 1em;
-}
+
 
 /* navBar container styles */
 
