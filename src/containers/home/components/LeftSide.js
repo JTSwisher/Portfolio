@@ -15,12 +15,13 @@ function LeftSide() {
             </div>
             <div id="greeting-left">
                 <h1 className="greeting-left">
-                    <Typewriter
-                    options={{
-                        strings: ("Hey there,<br /> I'm Jeff!"),
-                        autoStart: true,
-                    }} 
-                    />
+                <Typewriter
+                    onInit={(typewriter) => {
+                        typewriter.pauseFor(500)
+                        .typeString("Hey there,<br /> I'm Jeff!")
+                        .start();
+                    }}
+                />
                 </h1>
             </div>
             <div className="contact-greeting-left">
