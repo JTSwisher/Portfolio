@@ -2,8 +2,8 @@ import React from 'react'
 
 import NavContainer from '../navigation/NavContainer'
 
-import AboutContent from './components/AboutContent'
-import SkillsContent from './components/SkillsContent'
+import AboutContent from './AboutContent'
+import SkillsContent from './SkillsContent'
 
 function AboutContainer() {
     return (

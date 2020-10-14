@@ -1,5 +1,5 @@
 import React from 'react';
-import image  from '../../../assets/image.JPG'
+import image  from '../assets/image.JPG'
 
 export default function AboutContent() {
     return (
@@ -9,7 +9,7 @@ export default function AboutContent() {
             </div>
             <div className="about-header">
                 <h1>This is Me</h1> 
-            </div>npm start
+            </div>
             
             <div className="about-body"> 
                 <p>

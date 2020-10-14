@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Project from './Project';
-import { Projects } from '../Projects'
+import { Projects } from './Projects'
 
 export default function DisplayProject(props) {
 

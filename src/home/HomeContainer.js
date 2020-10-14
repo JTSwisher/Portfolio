@@ -1,6 +1,6 @@
 import React from 'react';
-import LeftSide from './components/LeftSide'
-import RightSide from './components/RightSide'
+import LeftSide from './LeftSide'
+import RightSide from './RightSide'
 
 function HomeContainer() {
     return(

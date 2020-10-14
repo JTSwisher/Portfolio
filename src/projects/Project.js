@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Button from '../../../miscellaneous/Button'
+import Button from '../miscellaneous/Button'
 
 export default function Project(props) {
 

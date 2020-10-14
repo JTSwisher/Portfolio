@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import NavBar from './components/NavBar';
-import NavMenuToggle from './components/NavMenuToggle';
+import NavBar from './NavBar';
+import NavMenuToggle from './NavMenuToggle';
 
 class NavContainer extends Component {
 
@@ -19,7 +19,7 @@ class NavContainer extends Component {
         return(
             <div>
                 <NavMenuToggle clickEvent={this.handleMenuDisplay} />
-                <NavBar displayState={this.state.display} hoverLeave={this.handleMenuDisplay} />
+                <NavBar displayState={this.state.display} hoverLeave={this.handleMenuDisplay} clickEvent={this.handleMenuDisplay} />
             </div>
         )
     }
