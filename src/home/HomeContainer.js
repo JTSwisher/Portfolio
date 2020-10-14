@@ -1,6 +1,7 @@
 import React from 'react';
 import LeftSide from './LeftSide'
 import RightSide from './RightSide'
+import './Home.css'
 
 function HomeContainer() {
     return(

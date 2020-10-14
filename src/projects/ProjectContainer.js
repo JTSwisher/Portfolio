@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-
 import NavContainer from '../navigation/NavContainer';
 import ProjectNav from './ProjectNav';
 import DisplayProject from './DisplayProject'
+import './Projects.css'
 
 
 export default class ProjectContainer extends Component{

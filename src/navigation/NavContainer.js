@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-
 import NavBar from './NavBar';
 import NavMenuToggle from './NavMenuToggle';
+import './Nav.css'
 
 class NavContainer extends Component {
 
