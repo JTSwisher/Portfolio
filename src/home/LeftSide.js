@@ -13,8 +13,8 @@ function LeftSide() {
             <div className="nav">
                 { links }
             </div>
-            <div id="greeting-left">
-                <h1 className="greeting-left">
+            <div className="greeting-left">
+                <h1 id="greeting-left">
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter.pauseFor(500)

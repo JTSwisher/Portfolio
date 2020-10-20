@@ -1,4 +1,13 @@
 /* home container styles */
+@media screen and (min-width: 1300px) {
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 /* left side */
 .home-left-side {
     width: 50vw;
@@ -12,8 +21,9 @@
   
   .nav {
     display: flex;
-    flex-direction: row;
-    margin-left: 17%;
+    justify-content: flex-start;
+    margin: 0% 0% 0% 17%;
+    border: 1px solid black;
   }
   
   #nav-links {
@@ -23,31 +33,31 @@
     margin-right: 50px;
     font-size: 1.5em;
   }
+
   #nav-links:hover {
     color: black;
     text-decoration: underline;
   }
   
   .greeting-left {
-    font-family: 'Bevan', cursive;
-    font-size: 65px;
-    font-weight: bold;
-  }
-  
-  #greeting-left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 10%;
-    margin-left: 27%;
+    margin-left: 200px;
     overflow: hidden;
+    border: 1px solid black;
+  }
+
+  #greeting-left {
+    font-family: 'Bevan', cursive;
+    font-size: 65px;
+    font-weight: bold;
   }
   
   .contact-greeting-left {
     display: flex;
     flex-direction: column;
     margin-left: 17%;
-  
   }
   
   #contact-greeting-left {
@@ -74,29 +84,25 @@
   /* right side */
   .home-right-side {
     width: 50vw;
-    height: 100vh;
     background-color: white;
-    position: absolute;
-    right: 0;
   }
   
-  
   .greeting-right {
-    display: inline-block;
-    width: 100%;
-    margin-top: 49%;
-    margin-left: 25.5%;
-    overflow: hidden;
-    text-align: center;
+    width: 50%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    justify-content: center;
+    height: 100vh;
   }
   
   #title-greeting-right {
     font-family: 'Bevan', cursive;
-    width: 425px;
     overflow: hidden;
-    font-size: 1.6em;
+    font-size: 2em;
     color: black;
-    margin: 0;
   }
   
   .greeting-line {
@@ -111,7 +117,9 @@
     width: 425px;
     overflow: hidden;
     font-size: 1.5em;
-    margin: 0;
+    margin-left: 0px;
     margin-top: 30px;
+    padding: 0px;
   }
   
+}

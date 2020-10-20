@@ -2,10 +2,10 @@
 
 export const Projects ={
     DailyDash: {
-        title: "DailyDash",
-        about: " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        title: "HomeDash",
+        about: "HomeDash is a React SPA with a Rails API backend intended to replace a current users desktop browser home page. This app was designed to centralize the data I would seek out across multiple sources on a daily basis as well as allowing me to track my current To-do list.",
         links: {
-            github: "https://github.com/JTSwisher/capstone_react_frontend",
+            github: "https://github.com/JTSwisher/daily-dash-frontend",
             videoDemo: "https://www.youtube.com/watch?v=eKzUNgVOXgU&feature=youtu.be"
         }
     },
