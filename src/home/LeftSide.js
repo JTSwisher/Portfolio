@@ -1,12 +1,12 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { FaGithub, FaLinkedin, FaRegEnvelope, } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom'
+
 
 
 function LeftSide() {
     const routes = ["About", "Projects", "Contact"]
-    const links = routes.map(r => <NavLink to={'/' + r} id="nav-links" ><strong>{r}</strong></NavLink>)
+    const links = routes.map(r => <a id="nav-links">{r}</a>)
 
     return (
         <div className="home-left-side">
