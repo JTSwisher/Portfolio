@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin, FaRegEnvelope, } from 'react-icons/fa';
 
 function LeftSide() {
     const routes = ["About", "Projects", "Contact"]
-    const links = routes.map(r => <a id="nav-links">{r}</a>)
+    const links = routes.map(r => <a id="nav-links" href={"#" + r}>{r}</a>)
 
     return (
         <div className="home-left-side">

@@ -4,7 +4,7 @@ import './About.css'
 
 function AboutContainer() {
     return (
-        <div className="flex-container">
+        <div className="flex-container" id="About">
             <AboutContent />
         </div>
     )
