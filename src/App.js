@@ -7,7 +7,11 @@ import ProjectContainer from './projects/ProjectContainer'
 
 function App() {
   return (
+    <>
     <HomeContainer />
+    <AboutContainer />
+    <ProjectContainer />
+    </>
     // <Router>
     //   <Route exact path="/" component={HomeContainer}/>
     //   <Route exact path="/home" component={HomeContainer}/>
